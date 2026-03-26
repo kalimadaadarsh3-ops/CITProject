@@ -3,12 +3,12 @@ public class NestedIf {
         int age=65;
         if(age>=18){
             if(age>=65){
-                System.out.println("eligible to avail government fund");
+                System.out.println("eligible to vote and avail government fund");
             }
             else
-                System.out.println("we are not eligible to vote and avail government scheme");
+                System.out.println("we are  eligible to vote but not eligible to avail government scheme");
             }else
-                System.out.println("we are not eligibleto vote");
+                System.out.println("we are not eligible to vote but not eligible to avail government scheme");
 
         }
     
